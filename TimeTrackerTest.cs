@@ -5,7 +5,7 @@ namespace _05_timetracker_testdouble
 {
     public class TimeTrackerTest
     {
-        [Fact]
+        //[Fact]
         public void InputTimeNowGetTrue()
         {
             bool expected = true;
@@ -16,7 +16,7 @@ namespace _05_timetracker_testdouble
             Assert.Equal(expected, actual);
         }
 
-        [Fact]
+        //[Fact]
         public void InputTimeNowGetFalse()
         {
             bool expected = false;

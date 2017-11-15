@@ -10,7 +10,10 @@ namespace _05_timetracker_testdouble
 
         internal bool isOpen()
         {
+            DateTime timenow = DateTime.Now;
+            
             return true;
         }
+        
     }
 }
