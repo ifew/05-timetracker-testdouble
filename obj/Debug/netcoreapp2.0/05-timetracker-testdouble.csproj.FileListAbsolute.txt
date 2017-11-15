@@ -1,0 +1,13 @@
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\obj\Debug\netcoreapp2.0\05-timetracker-testdouble.csproj.CoreCompileInputs.cache
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\obj\Debug\netcoreapp2.0\05-timetracker-testdouble.AssemblyInfoInputs.cache
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\obj\Debug\netcoreapp2.0\05-timetracker-testdouble.AssemblyInfo.cs
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\bin\Debug\netcoreapp2.0\05-timetracker-testdouble.deps.json
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\bin\Debug\netcoreapp2.0\05-timetracker-testdouble.runtimeconfig.json
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\bin\Debug\netcoreapp2.0\05-timetracker-testdouble.runtimeconfig.dev.json
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\bin\Debug\netcoreapp2.0\05-timetracker-testdouble.dll
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\bin\Debug\netcoreapp2.0\05-timetracker-testdouble.pdb
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\obj\Debug\netcoreapp2.0\05-timetracker-testdouble.dll
+D:\www_class\class\self-learning-dotNet\05-timetracker-testdouble\obj\Debug\netcoreapp2.0\05-timetracker-testdouble.pdb
