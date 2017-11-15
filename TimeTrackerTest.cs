@@ -26,7 +26,17 @@ namespace _05_timetracker_testdouble
 
             Assert.Equal(expected, actual);
         }
-        
+
+        [Fact]
+        public void InputTime1700NowGetFalse()
+        {
+            bool expected = true;
+
+            TimeTracker timetracker = new TimeTracker(new TimeSpan(17,0,0));
+            bool actual = timetracker.isOpen();
+
+            Assert.Equal(expected, actual);
+        }
 
         //[Fact]
         public void InputTimeNowGetFalse()
