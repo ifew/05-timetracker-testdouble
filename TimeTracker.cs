@@ -8,11 +8,14 @@ namespace _05_timetracker_testdouble
         {
         }
 
-        internal bool isOpen()
+        internal int isOpen()
         {
-            DateTime timenow = DateTime.Now;
+            TimeSpan TimeNow = DateTime.Now.TimeOfDay;
             
-            return true;
+            TimeSpan TimeOpenStart = new TimeSpan(8,0,0);
+            int CheckOpen = TimeSpan.Compare(TimeNow, TimeOpenStart);
+
+            return CheckOpen;
         }
         
     }

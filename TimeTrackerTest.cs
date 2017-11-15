@@ -5,13 +5,13 @@ namespace _05_timetracker_testdouble
 {
     public class TimeTrackerTest
     {
-        //[Fact]
+        [Fact]
         public void InputTimeNowGetTrue()
         {
             bool expected = true;
 
             TimeTracker timetracker = new TimeTracker();
-            bool actual = timetracker.isOpen();
+            int actual = timetracker.isOpen();
 
             Assert.Equal(expected, actual);
         }
