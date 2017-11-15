@@ -28,7 +28,7 @@ namespace _05_timetracker_testdouble
         }
 
         [Fact]
-        public void InputTime1700NowGetFalse()
+        public void InputTime1700NowGetTrue()
         {
             bool expected = true;
 
