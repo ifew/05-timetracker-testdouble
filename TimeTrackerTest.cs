@@ -11,7 +11,7 @@ namespace _05_timetracker_testdouble
             bool expected = true;
 
             TimeTracker timetracker = new TimeTracker();
-            int actual = timetracker.isOpen();
+            bool actual = timetracker.isOpen();
 
             Assert.Equal(expected, actual);
         }
