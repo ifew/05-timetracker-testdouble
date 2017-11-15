@@ -6,6 +6,7 @@ namespace _05_timetracker_testdouble
     {
 
         TimeSpan TimeNow = DateTime.Now.TimeOfDay;
+        Logger logger = new Logger();
 
         public TimeTracker()
         {
@@ -24,9 +25,8 @@ namespace _05_timetracker_testdouble
             int CheckOpenStart = TimeSpan.Compare(TimeNow, TimeOpenStart);
             int CheckOpenEnd = TimeSpan.Compare(TimeNow, TimeOpenEnd);
 
-            Logger logger = new Logger();
             logger.Write("hello");
-            
+
             if ((CheckOpenStart >= 0) && (CheckOpenEnd <= 0))
             {
                 return true;
