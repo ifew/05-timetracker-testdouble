@@ -26,5 +26,17 @@ namespace _05_timetracker_testdouble
 
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void InputTimeSpanGetEqual()
+        {
+            int expected = 0;
+
+            TimeSpan time1 = new TimeSpan(8,9,50);
+            TimeSpan time2 = new TimeSpan(8,9,50);
+            int actual = TimeSpan.Compare(time1, time2);
+
+            Assert.Equal(expected, actual);
+        }
     }
 }
