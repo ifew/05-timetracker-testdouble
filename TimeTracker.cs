@@ -25,7 +25,7 @@ namespace _05_timetracker_testdouble
             int CheckOpenStart = TimeSpan.Compare(TimeNow, TimeOpenStart);
             int CheckOpenEnd = TimeSpan.Compare(TimeNow, TimeOpenEnd);
             
-            if((CheckOpenStart == 1) && (CheckOpenEnd == -1)) {
+            if((CheckOpenStart >= 0) && (CheckOpenEnd <= 0)) {
                 return true;
             }
 
