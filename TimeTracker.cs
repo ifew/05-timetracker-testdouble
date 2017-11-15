@@ -35,6 +35,9 @@ namespace _05_timetracker_testdouble
             return false;
         }
 
-
+        internal void SetLogger(Logger logger)
+        {
+            this.logger = logger;
+        }
     }
 }

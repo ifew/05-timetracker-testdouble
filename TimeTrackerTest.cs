@@ -104,5 +104,16 @@ namespace _05_timetracker_testdouble
 
             Assert.Equal(expected, actual);
         }
+
+        [Fact]
+        public void CheckLoggerCalled()
+        {
+            TimeTracker timetracker = new TimeTracker();
+
+            MockLogger mocklogger = new MockLogger();
+            timetracker.SetLogger(mocklogger);
+
+            Assert.Equal(1, mocklogger.called);
+        }
     }
 }
