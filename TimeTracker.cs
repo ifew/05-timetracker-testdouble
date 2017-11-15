@@ -10,7 +10,10 @@ namespace _05_timetracker_testdouble
 
         internal bool isOpen(string v)
         {
-            return true;
+            if((v == "08:00") || (v == "17:00")) {
+                return true;
+            }
+            return false;
         }
     }
 }
