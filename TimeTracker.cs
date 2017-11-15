@@ -18,7 +18,6 @@ namespace _05_timetracker_testdouble
 
         internal bool isOpen()
         {
-            
             TimeSpan TimeOpenStart = new TimeSpan(8,0,0);
             TimeSpan TimeOpenEnd = new TimeSpan(17,0,0);
 
