@@ -13,9 +13,16 @@ namespace _05_timetracker_testdouble
             TimeSpan TimeNow = DateTime.Now.TimeOfDay;
             
             TimeSpan TimeOpenStart = new TimeSpan(8,0,0);
-            int CheckOpen = TimeSpan.Compare(TimeNow, TimeOpenStart);
+            TimeSpan TimeOpenEnd = new TimeSpan(17,0,0);
+            
+            int CheckOpenStart = TimeSpan.Compare(TimeNow, TimeOpenStart);
+            int CheckOpenEnd = TimeSpan.Compare(TimeNow, TimeOpenEnd);
+            
+            if((CheckOpenStart == 1) && (CheckOpenEnd == -1)) {
+                return true;
+            }
 
-            return CheckOpen==1;
+            return false;
         }
         
     }
