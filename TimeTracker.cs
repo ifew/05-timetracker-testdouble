@@ -24,7 +24,9 @@ namespace _05_timetracker_testdouble
             int CheckOpenStart = TimeSpan.Compare(TimeNow, TimeOpenStart);
             int CheckOpenEnd = TimeSpan.Compare(TimeNow, TimeOpenEnd);
 
-            Logger("hello");
+            Logger logger = new Logger();
+            logger.Write("hello");
+            
             if ((CheckOpenStart >= 0) && (CheckOpenEnd <= 0))
             {
                 return true;
@@ -33,13 +35,6 @@ namespace _05_timetracker_testdouble
             return false;
         }
 
-        public void Logger(String lines)
-        {
-            System.IO.StreamWriter file = new System.IO.StreamWriter("./test.txt", true);
-            file.WriteLine(lines);
-
-            file.Close();
-        }
 
     }
 }
