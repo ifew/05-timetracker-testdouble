@@ -6,9 +6,14 @@ namespace _05_timetracker_testdouble
     {
         
         TimeSpan TimeNow = DateTime.Now.TimeOfDay;
-        
+
         public TimeTracker()
         {
+        }
+
+        public TimeTracker(TimeSpan setTime)
+        {
+            TimeNow = setTime;
         }
 
         internal bool isOpen()
